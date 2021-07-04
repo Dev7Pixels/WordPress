@@ -1,0 +1,2 @@
+# WordPressTheme
+Arabic WordPress Theme
