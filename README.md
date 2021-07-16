@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
+```html
 <head>
 	<meta name="viewport" content="width=device-width" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -94,4 +93,4 @@
 <p>WordPress is free software, and is released under the terms of the <abbr>GPL</abbr> (GNU General Public License) version 2 or (at your option) any later version. See <a href="license.txt">license.txt</a>.</p>
 
 </body>
-</html>
+```
