@@ -1,5 +1,8 @@
 
+<?php if(is_rtl()){ ?>
+<html lang="ar" dir="rtl" >
 
+<?php } ?>
 
  
 <section class="">
