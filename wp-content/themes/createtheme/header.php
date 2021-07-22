@@ -30,7 +30,7 @@ wp_head();
       <div class="container-fluid">
 
         <!-- first item: brand name -->
-        <a class="navbar-brand" href="#">M.....yBrand</a>
+        <a class="navbar-brand" href="#">MyBrand</a>
 
         <!-- this is the button when it collapses due to small screen size (data-bs-target must match the ID of the div below)-->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
