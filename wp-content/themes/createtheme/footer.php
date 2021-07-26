@@ -1,10 +1,188 @@
 
+
 <?php if(is_rtl()){ ?>
 <html lang="ar" dir="rtl" >
 
-<?php } ?>
 
- 
+<footer class="bg-dark text-white pt-5">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Social media -->
+   
+    <!-- Section: Social media -->
+
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+       
+          <!--Grid column-->
+          
+          <!--Grid column-->
+<div class="row">
+<!--Grid column-->
+<div class="col-lg-5 col-md-6 mb-4 pr-4 mb-md-4 float-start ">
+<h5 >كن الأول</h5>
+<p class="text-secondary">الحصول على أقصى ما يمكن الحصول على دولية في آخر الدولية  </p>
+</div>
+<!--Grid column-->
+
+
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0  ">
+<div class="input-group mb-3 ">
+  <input type="text" class="form-control border-top rounded-pill" placeholder="...عنوان الايميل" aria-label="Recipient's username" aria-describedby="basic-addon2">
+  <div class="input-group-append">
+    <button class="btn btn-primary rounded-pill" type="button">متابعة</button>
+  </div>
+</div> </div>
+<div class="col-lg-3 col-md-2 mb-4 mb-md-0 text-center">
+
+<a href="#"><i class="fa fa-facebook-f p-1" style="padding:5px;color:white;background-color:#33332F;border-radius:3px;"></i></a>
+<a href="#"><i class="fab fa-git  fa-1x p-1" style="padding:5px;color:white;background-color:#33332F;border-radius:3px;"></i></a>
+<a href="#"><i class="fa fa-linkedin fa-1x p-1" style="padding:5px;color:white;background-color:#33332F;border-radius:3px;"></i></a>
+</div>
+</div><!--end row-->
+          <!--Grid column-->
+
+          <!--Grid column-->
+       
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+
+    <!-- Section: Text -->
+    <section class="mb-4">
+     <hr>
+    </section>
+    <!-- Section: Text -->
+
+    <!-- Section: Links -->
+    <section class="">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+          <h5 class="">معلومات الاتصال</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <span class="text-white pb-0">العنوان</span><br>
+              <span class="text-secondary pt-0">شارع 123</span>
+            </li>
+            <li class=" mt-3">
+            <span class="text-white text-uppercase pb-0">الرقم</span></span><br>
+              <span class="text-secondary pt-0">125 -445 -777</span>
+            </li>
+            <li class=" mt-3">
+            <span class="text-white text-uppercase pb-0">الايميل</span></span><br>
+              <span class="text-secondary pt-0">hala@gmail.com</span>
+            </li>
+           
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">حساباتنا</h5>
+
+          <ul class="list-unstyled mb-3">
+            <li>
+              <a href="#!" class="text-secondary text-decoration-none">معرفة المزيد عننا</a>
+            </li>
+            <li>
+              <a href="#!" class="text-secondary text-decoration-none">التواصل معنا</a>
+            </li>
+            <li>
+              <a href="#!" class="text-secondary text-decoration-none">الحساب</a>
+            </li>
+           
+          </ul>
+          <div class="row"><hr></div>
+        
+        </div>
+        
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase pb-4">  </h5>
+
+          <ul class="list-unstyled mb-3 ">
+            <li>
+              <a href="#!" class="text-secondary text-decoration-none">ترتيب حسب التاريخ</a>
+            </li>
+            <li>
+              <a href="#!" class="text-secondary text-decoration-none">بحث متقدم</a>
+            </li>
+            <li>
+              <a href="#!" class="text-secondary text-decoration-none">تسجيل الدخول</a>
+            </li>
+        
+          </ul>
+          
+          <div class="row"><hr></div>
+          2019 جميع الحقوق محفوظة 
+        </div>
+        <!--Grid column-->
+        
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase pb-4">الميزات الرئيسية</h5>
+
+          <p class="text-secondary"> نقدم لكم قوالب ووردبريس سريعة التحميل وتناسب جميع مطالبكمت</p>
+         
+          <div class="row"><hr></div>
+          ساعات العمل <br> <p class="text-secondary">من 10 الى 4</p>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase pb-5"></h5>
+
+          <p class="text-secondary"> نقدم لكم قوالب ووردبريس سريعة التحميل وتناسب جميع مطالبك</p>
+          
+          <div class="row"><hr></div>
+         <div class="payment-accounts ">
+          <i class="fab fa-cc-visa fa-3x p-1"></i>
+         <i class="fab fa-cc-paypal  fa-3x p-1"></i>
+         <i class="fab fa-cc-stripe fa-3x p-1"></i> 
+         <i class="fab fa-alipay fa-3x p-1"></i>
+<span class="payment-icon visa "></span>
+
+         </div>
+        </div>
+        <!--Grid column-->
+        <!--row-->
+      
+      </div>
+      </span>
+      
+      <!--Grid row-->
+    </section>
+    <!-- Section: Links -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2020 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+
+
+
+
+
+<?php }  else{  ?>
+
+
+
+
 <section class="">
   <!-- Footer -->
   <footer class="bg-dark text-center text-white pt-5">
@@ -93,21 +271,21 @@
 
 <br><br>
 
-<footer class="bg-dark text-white text-lg-start">
+<footer class="bg-dark text-white">
   <!-- Grid container -->
   <div class="container p-4">
     <!--Grid row-->
     <div class="row">
       <!--Grid column-->
-      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0 ">
         <h4 >Contact Details</h4>
 
-        <ul class="list-unstyled mb-0">
+        <ul class="list-unstyled  mb-0">
           <li>
             <p class="text-secondary mb-0" >porto template 123</p>
           </li>
           <li>
-            <p class="text-secondary mb-0" >Porto Blvd, Suite</p>
+            <p class="text-secondary  mb-0" >Porto Blvd, Suite</p>
           </li>
           <li>
             <p class="text-secondary" >New York</p>
@@ -155,22 +333,11 @@
       <!--Grid column-->
       <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
         <h5 class="text-uppercase mb-3">Social Media</h5>
-
-        <ul class="list-unstyled">
-          <li>
-         <!-- Facebook -->
-      <a class="btn m-1" href="#!" role="button"
-        ><i class="fa fa-facebook-official" style="font-size:24px"></i><i class="fa fa-linkedin ml-3" style="font-size:24px"></i><i class="fa fa-twitter-square ml-3" style="font-size:24px"></i></a>
-          </li>
-      
-          <li>
-            <a href="#!" class="text-dark">Link 3</a>
-          </li>
-          <li>
-            <a href="#!" class="text-dark">Link 4</a>
-          </li>
-        </ul>
-      </div>
+<div class="">
+        <a href="#"><i class="fa fa-facebook-f p-1" style="padding:5px;color:white;background-color:#33332F;border-radius:3px;"></i></a>
+<a href="#"><i class="fab fa-git  fa-1x p-1" style="padding:5px;color:white;background-color:#33332F;border-radius:3px;"></i></a>
+<a href="#"><i class="fa fa-linkedin fa-1x p-1" style="padding:5px;color:white;background-color:#33332F;border-radius:3px;"></i></a>
+      </div></div>
       <!--Grid column-->
     </div>
     <!--Grid row-->
@@ -178,77 +345,77 @@
   <!-- Grid container -->
 
   <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2020 Copyright:
-    <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  <div class="" style="background-color: rgba(0, 0, 0, 0.2);">
+  <div class="row">
+  <div class="col-lg-3 fs-6 text-secondary m-2 text-center">
+  © 2020 Copyright:All Right Preserved
   </div>
+  <div class="col-lg-5 text-center">
+  <div class="payment-accounts ">
+       <a >   <i  class="fab fa-cc-visa fa-3x p-1"></i> </a>
+        <a> <i class="fab fa-cc-paypal  fa-3x p-1"></i> </a>
+         <i class="fab fa-cc-stripe fa-3x p-1"></i> 
+         <i class="fab fa-alipay fa-3x p-1"></i> 
+<span class="payment-icon visa "></span>
+
+         </div>
+  </div>
+    <div class="col-lg-3 text-center">
+      <a href="#"><i class="fa fa-facebook-f p-2 m-2" style="color:white;background-color:#33332F;border-radius:3px;"></i></a>
+      <a href="#"><i class="fab fa-twitter  fa-1x p-2 m-2" style="color:white;background-color:#33332F;border-radius:3px;"></i></a>
+      <a href="#"><i class="fa fa-linkedin fa-1x p-2 m-2" style="color:white;background-color:#33332F;border-radius:3px;"></i></a>
+      
+    </div>
+</div>
+</div>
   <!-- Copyright -->
 </footer>
 <br><br>
 <!-- Footer -->
-<footer class="bg-dark text-center text-white">
+
+<footer class="bg-dark text-white pt-5">
   <!-- Grid container -->
   <div class="container p-4">
     <!-- Section: Social media -->
-    <section class="mb-4">
-      <!-- Facebook -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fa fa-facebook-official" style="font-size:24px"></i></a>
-
-      <!--github-->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fa fa-github-square" style="font-size:24px"></i></a>
-
-      <!-- Google -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fa fa-google" style="font-size:24px"></i></a>
-
-      <!-- Instagram -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fa fa-instagram" style="font-size:24px"></i></a>
-
-      <!-- Linkedin -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fa fa-linkedin-square" style="font-size:24px"></i></a>
-
-      <!-- twitter -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fa fa-twitter-square" style="font-size:24px"></i></a>
-    </section>
+   
     <!-- Section: Social media -->
 
     <!-- Section: Form -->
     <section class="">
       <form action="">
         <!--Grid row-->
-        <div class="row d-flex justify-content-center">
+       
           <!--Grid column-->
-          <div class="col-auto">
-            <p class="pt-2">
-              <strong>Sign up for our newsletter</strong>
-            </p>
-          </div>
+          
+          <!--Grid column-->
+<div class="row">
+<!--Grid column-->
+<div class="col-lg-5 col-md-6 mb-4 pr-4 mb-md-4 float-start ">
+<h5 >Be The First To Know</h5>
+<p class="text-secondary"> get at the latest internationality get at the latest internationality  </p>
+</div>
+<!--Grid column-->
+
+
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0  ">
+<div class="input-group mb-3 ">
+  <input type="text" class="form-control border-top rounded-pill" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+  <div class="input-group-append">
+    <button class="btn btn-primary rounded-pill" type="button">Subscribe</button>
+  </div>
+</div> </div>
+<div class="col-lg-3 col-md-2 mb-4 mb-md-0 text-center">
+
+<a href="#"><i class="fa fa-facebook-f p-1" style="padding:5px;color:white;background-color:#33332F;border-radius:3px;"></i></a>
+<a href="#"><i class="fab fa-git  fa-1x p-1" style="padding:5px;color:white;background-color:#33332F;border-radius:3px;"></i></a>
+<a href="#"><i class="fa fa-linkedin fa-1x p-1" style="padding:5px;color:white;background-color:#33332F;border-radius:3px;"></i></a>
+</div>
+</div><!--end row-->
           <!--Grid column-->
 
           <!--Grid column-->
-          <div class="col-md-5 col-12">
-            <!-- Email input -->
-            <div class="form-outline form-white mb-4">
-              <input type="email" id="form5Example2" class="form-control" />
-              <label class="form-label" for="form5Example2">Email address</label>
-            </div>
-          </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-auto">
-            <!-- Submit button -->
-            <button type="submit" class="btn btn-outline-light mb-4">
-              Subscribe
-            </button>
-          </div>
-          <!--Grid column-->
-        </div>
+       
         <!--Grid row-->
       </form>
     </section>
@@ -256,11 +423,7 @@
 
     <!-- Section: Text -->
     <section class="mb-4">
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
-        repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
-        eum harum corrupti dicta, aliquam sequi voluptate quas.
-      </p>
+     <hr>
     </section>
     <!-- Section: Text -->
 
@@ -269,89 +432,101 @@
       <!--Grid row-->
       <div class="row">
         <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
+        <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+          <h5 class="">contact information</h5>
 
           <ul class="list-unstyled mb-0">
             <li>
-              <a href="#!" class="text-white">Link 1</a>
+              <span class="text-white pb-0">ADDRESS</span><br>
+              <span class="text-secondary pt-0">123STREET</span>
             </li>
-            <li>
-              <a href="#!" class="text-white">Link 2</a>
+            <li class=" mt-3">
+            <span class="text-white text-uppercase pb-0">phone</span></span><br>
+              <span class="text-secondary pt-0">125 -445 -777</span>
             </li>
-            <li>
-              <a href="#!" class="text-white">Link 3</a>
+            <li class=" mt-3">
+            <span class="text-white text-uppercase pb-0">email</span></span><br>
+              <span class="text-secondary pt-0">hala@gmail.com</span>
             </li>
-            <li>
-              <a href="#!" class="text-white">Link 4</a>
-            </li>
+           
           </ul>
         </div>
         <!--Grid column-->
 
         <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
+        <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">my account</h5>
 
-          <ul class="list-unstyled mb-0">
+          <ul class="list-unstyled mb-3">
             <li>
-              <a href="#!" class="text-white">Link 1</a>
+              <a href="#!" class="text-secondary text-decoration-none">About Us</a>
             </li>
             <li>
-              <a href="#!" class="text-white">Link 2</a>
+              <a href="#!" class="text-secondary text-decoration-none">Contact Us</a>
             </li>
             <li>
-              <a href="#!" class="text-white">Link 3</a>
+              <a href="#!" class="text-secondary text-decoration-none">My Account</a>
             </li>
-            <li>
-              <a href="#!" class="text-white">Link 4</a>
-            </li>
+           
           </ul>
+          <div class="row"><hr></div>
+         @porto commerce
+        </div>
+        
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase pb-4">  </h5>
+
+          <ul class="list-unstyled mb-3 ">
+            <li>
+              <a href="#!" class="text-secondary text-decoration-none">order history</a>
+            </li>
+            <li>
+              <a href="#!" class="text-secondary text-decoration-none">Advanced Search</a>
+            </li>
+            <li>
+              <a href="#!" class="text-secondary text-decoration-none">login</a>
+            </li>
+        
+          </ul>
+          
+          <div class="row"><hr></div>
+          2019 copy right
         </div>
         <!--Grid column-->
-
+        
         <!--Grid column-->
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
+          <h5 class="text-uppercase pb-4">Main Feature</h5>
 
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="text-white">Link 1</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 2</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 3</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 4</a>
-            </li>
-          </ul>
+          <p class="text-secondary"> super and fast wordpress theme with many fantastic features</p>
+         
+          <div class="row"><hr></div>
+          working days hour <br> <p class="text-secondary">from10 to 4</p>
         </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
+          <h5 class="text-uppercase pb-5"></h5>
 
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="text-white">Link 1</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 2</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 3</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 4</a>
-            </li>
-          </ul>
+          <p class="text-secondary"> super and fast wordpress theme with many fantastic features</p>
+          
+          <div class="row"><hr></div>
+         <div class="payment-accounts ">
+          <i class="fab fa-cc-visa fa-3x p-1"></i>
+         <i class="fab fa-cc-paypal  fa-3x p-1"></i>
+         <i class="fab fa-cc-stripe fa-3x p-1"></i> 
+         <i class="fab fa-alipay fa-3x p-1"></i>
+<span class="payment-icon visa "></span>
+
+         </div>
         </div>
         <!--Grid column-->
+        <!--row-->
+      
       </div>
+      </span>
+      
       <!--Grid row-->
     </section>
     <!-- Section: Links -->
@@ -366,6 +541,8 @@
   <!-- Copyright -->
 </footer>
 <!-- Footer -->
+<?php } ?>
+
 
  <?php
 wp_footer();?>
