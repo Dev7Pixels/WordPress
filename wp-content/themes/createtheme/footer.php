@@ -352,10 +352,10 @@
   </div>
   <div class="col-lg-5 text-center">
   <div class="payment-accounts p-2 ">
-       <a href="#"> <img src="http://localhost/wordpress/wp-content/uploads/2021/07/paypal-logo.png"  alt="..." width="60" height="35"></a>
-      <a href="#"> <img src="http://localhost/wordpress/wp-content/uploads/2021/07/Visa1.jpg"  alt="..." width="60" height="35"></a>
-      <a href="#"> <img src="http://localhost/wordpress/wp-content/uploads/2021/07/payments_12_550.png"  alt="..." width="60" height="35"></a>
-      <a href="#"> <img src="http://localhost/wordpress/wp-content/uploads/2021/07/images.png"  alt="..." width="60" height="35"></a>
+       <a href="#"> <img src="https://wp.7pixelsadv.com/wp-content/uploads/2021/07/paypal-logo.png"  alt="..." width="60" height="35"></a>
+      <a href="#"> <img src="https://wp.7pixelsadv.com/wp-content/uploads/2021/07/Visa1.jpg"  alt="..." width="60" height="35"></a>
+      <a href="#"> <img src="https://wp.7pixelsadv.com/wp-content/uploads/2021/07/payments_12_550.png"  alt="..." width="60" height="35"></a>
+      <a href="#"> <img src="https://wp.7pixelsadv.com/wp-content/uploads/2021/07/images.png"  alt="..." width="60" height="35"></a>
 <span class="payment-icon visa "></span>
 
          </div>
@@ -513,10 +513,10 @@
           
           <div class="row"><hr></div>
          <div class="payment-accounts ">
-         <a href="#"> <img src="http://localhost/wordpress/wp-content/uploads/2021/07/paypal-logo.png"  alt="..." width="60" height="35"></a>
-      <a href="#"> <img src="http://localhost/wordpress/wp-content/uploads/2021/07/Visa1.jpg"  alt="..." width="60" height="35"></a>
-      <a href="#"> <img src="http://localhost/wordpress/wp-content/uploads/2021/07/payments_12_550.png"  alt="..." width="60" height="35"></a>
-      <a href="#"> <img src="http://localhost/wordpress/wp-content/uploads/2021/07/images.png"  alt="..." width="60" height="35"></a>
+         <a href="#"> <img src="https://wp.7pixelsadv.com/wp-content/uploads/2021/07/paypal-logo.png"  alt="..." width="60" height="35"></a>
+      <a href="#"> <img src="https://wp.7pixelsadv.com/wp-content/uploads/2021/07/Visa1.jpg"  alt="..." width="60" height="35"></a>
+      <a href="#"> <img src="https://wp.7pixelsadv.com/wp-content/uploads/2021/07/payments_12_550.png"  alt="..." width="60" height="35"></a>
+      <a href="#"> <img src="https://wp.7pixelsadv.com/wp-content/uploads/2021/07/images.png"  alt="..." width="60" height="35"></a>
 <span class="payment-icon visa "></span>
 
          </div>
