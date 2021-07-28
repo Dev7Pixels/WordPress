@@ -15,6 +15,16 @@
     
  <style type="text/css">
  
+
+ @media (max-width: 992px) {
+  #navbarNavAltMarkup .nav-style
+   {
+  padding-left: 45px!important;
+ }
+
+ }
+
+ 
  </style>
 
   <?php
@@ -224,9 +234,9 @@ wp_head();
   
 </div>
 
-<div class="container">
+
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark flex-column">
-  <a class="navbar-brand " href="#">Logo</a>
+  <a class="navbar-brand pr-5" href="#">Logo</a>
   
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -235,18 +245,18 @@ wp_head();
   <div class="collapse navbar-collapse flex-row w-100" id="navbarNavAltMarkup">
     <div class="navbar-nav w-100 justify-content-around">
        <div class="nav-item nav-link mx-auto" href="#">
-        <ul class="navbar-nav ">
+        <ul class="navbar-nav  ml-5">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link nav-style active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link nav-style" href="#">Link</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="#" tabindex="-1" aria-disabled="false">About Us</a>
+            <a class="nav-link nav-style" href="#" tabindex="-1" aria-disabled="false">About Us</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+            <a class="nav-link nav-style dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
             <ul class="dropdown-menu" aria-labelledby="dropdown03">
               <li><a class="dropdown-item" href="#">Action</a></li>
               <li><a class="dropdown-item" href="#">Another action</a></li>
@@ -258,16 +268,16 @@ wp_head();
       <div class="nav-item nav-link mx-auto" href="#">
         <ul class="navbar-nav ">
             <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link nav-style active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link nav-style" href="#">Link</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="#" tabindex="-1" aria-disabled="false">About Us</a>
+            <a class="nav-link nav-style " href="#" tabindex="-1" aria-disabled="false">About Us</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+            <a class="nav-link nav-style dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
             <ul class="dropdown-menu" aria-labelledby="dropdown03">
               <li><a class="dropdown-item" href="#">Action</a></li>
               <li><a class="dropdown-item" href="#">Another action</a></li>
@@ -303,7 +313,6 @@ wp_head();
   </div>
 </nav>
 
-</div>
 
 
 </header> 
