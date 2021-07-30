@@ -47,15 +47,6 @@
 } 
 /* ============ desktop view .end// ============ */
 
-/* ============ small devices ============ */
-@media (max-width: 991px) {
-
-.dropdown-menu .dropdown-menu{
-    margin-left:0.7rem; margin-right:0.7rem; margin-bottom: .5rem;
-}
-
-} 
-/* ============ small devices .end// ============ */
 
 </style>
 
@@ -131,9 +122,7 @@ wp_head();
     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
       <div class="hamburger-toggle">
         <div class="hamburger">
-          <span></span>
-          <span></span>
-          <span></span>
+          <span class="navbar-toggler-icon"></span>
         </div>
       </div>
     </button>
@@ -152,7 +141,7 @@ wp_head();
         <ul class="dropdown-menu">
         <li><a class="dropdown-item" href="<?php bloginfo('template_url'); ?>test/wp-content/themes/headers/"> Headers </a></li>
         <li><a class="dropdown-item" href="<?php bloginfo('template_url'); ?>test/wp-content/themes/footers/">Footers</a></li>
-        <li><a class="dropdown-item" href="#"> Layouts &raquo; </a>
+        <li><a class="dropdown-item" href=""> Layouts &raquo; </a>
            <ul class="submenu dropdown-menu">
             <li><a class="dropdown-item" href="<?php bloginfo('template_url'); ?>test/wp-content/themes/left-side/">Left Sidebar</a></li>
            <li><a class="dropdown-item" href="<?php bloginfo('template_url'); ?>test/wp-content/themes/right-side/">Right Sidebar</a></li>
@@ -171,13 +160,6 @@ wp_head();
     </div>
   </div>
 </nav>
-
-
-
-
-  
-
-
 
 
 
