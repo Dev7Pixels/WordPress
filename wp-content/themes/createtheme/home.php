@@ -121,9 +121,7 @@
   </ul>
 </div>
 </form> -->
-<?php get_header();
 
-?>
 <?php
 	
 if(isset($_POST['button1'])) { 
@@ -162,7 +160,9 @@ elseif(isset($_POST['button9'])) {
     
   </div>
 </div>
-  
+<?php get_header();
+
+?>
 <?php get_footer(); ?>
 
 
