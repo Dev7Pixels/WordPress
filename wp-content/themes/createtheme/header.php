@@ -1,17 +1,110 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <title>Create Thneme</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hello, world!</title>
+    <!-- Bootstrap CSS -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    
    <script src="https://kit.fontawesome.com/b97cbdc674.js" crossorigin="anonymous"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <script src="https://kit.fontawesome.com/b97cbdc674.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="../assets/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="../assets/css/custom.css">
+    
+    
+
+
+<style type="text/css">
+
+  @media (max-width: 992px) {
+  #navbarNavAltMarkup .nav-style
+   {
+  padding-left: 45px!important;
+ }
+
+ }
+
+ /* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+
+  .dropdown-menu li{
+    position: relative;
+  }
+  .dropdown-menu .submenu{ 
+    display: none;
+    position: absolute;
+    left:100%; top:-7px;
+  }
+  .dropdown-menu .submenu-left{ 
+    right:100%; left:auto;
+  }
+
+  .dropdown-menu > li:hover{ background-color: #f1f1f1 }
+  .dropdown-menu > li:hover > .submenu{
+    display: block;
+  }
+} 
+/* ============ desktop view .end// ============ */
+
+
+</style>
+
+
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function(){
+        
+
+      /////// Prevent closing from click inside dropdown
+    document.querySelectorAll('.dropdown-menu').forEach(function(element){
+      element.addEventListener('click', function (e) {
+        e.stopPropagation();
+      });
+    })
+
+
+
+    // make it as accordion for smaller screens
+    if (window.innerWidth < 992) {
+
+      // close all inner dropdowns when parent is closed
+      document.querySelectorAll('.navbar .dropdown').forEach(function(everydropdown){
+        everydropdown.addEventListener('hidden.bs.dropdown', function () {
+          // after dropdown is hidden, then find all submenus
+            this.querySelectorAll('.submenu').forEach(function(everysubmenu){
+              // hide every submenu as well
+              everysubmenu.style.display = 'none';
+            });
+        })
+      });
+      
+      document.querySelectorAll('.dropdown-menu a').forEach(function(element){
+        element.addEventListener('click', function (e) {
+    
+            let nextEl = this.nextElementSibling;
+            if(nextEl && nextEl.classList.contains('submenu')) {  
+              // prevent opening link if link needs to open dropdown
+              e.preventDefault();
+              console.log(nextEl);
+              if(nextEl.style.display == 'block'){
+                nextEl.style.display = 'none';
+              } else {
+                nextEl.style.display = 'block';
+              }
+
+            }
+        });
+      })
+    }
+    // end if innerWidth
+
+  }); 
+
+</script>
+
+
   <?php
 wp_head();
 
@@ -23,110 +116,110 @@ wp_head();
 <body>
  
 <header>
-  
-<nav class="navbar navbar-inverse">
+
+<!-- 
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
   <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">WebSiteName</a>
-    </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">Page 1</a></li>
-      <li><a href="#">Page 2</a></li>
-    </ul>
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-    </ul>
-  </div>
-</nav>
-
-
-<nav class="navbar navbar-inverse navbar-default" role="navigation">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Brand</a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-      <form class="navbar-form navbar-left" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
+    <a class="navbar-brand" href="#">Dev7Pixels <span class="badge bg-success"></span></a>
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+      <div class="hamburger-toggle">
+        <div class="hamburger">
+          <span class="navbar-toggler-icon"></span>
         </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">layout option <b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="https://wp.7pixelsadv.com/test/home-boxed/">boxed</a></li>
-              <li><a class="dropdown-item" href="https://wp.7pixelsadv.com/test/">full width</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
+      </div>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-
-
-<nav class="navbar navbar-inverse navbar-static-top">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#"> Brand </a>
-    </div>
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">About</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Design</a></li>
-            <li><a href="#">Development</a></li>
-            <li><a href="#">Consulting</a></li>
-          </ul>
+       
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
         </li>
-        <li><a href="#">Contact</a></li>
+        
+        <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">  Features  </a>
+        <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="<?php bloginfo('template_url'); ?>test/wp-content/themes/headers/"> Headers </a></li>
+        <li><a class="dropdown-item" href="<?php bloginfo('template_url'); ?>test/wp-content/themes/footers/">Footers</a></li>
+        <li><a class="dropdown-item" href=""> Layouts &raquo; </a>
+           <ul class="submenu dropdown-menu">
+            <li><a class="dropdown-item" href="<?php bloginfo('template_url'); ?>test/wp-content/themes/left-side/">Left Sidebar</a></li>
+           <li><a class="dropdown-item" href="<?php bloginfo('template_url'); ?>test/wp-content/themes/right-side/">Right Sidebar</a></li>
+           <li><a class="dropdown-item" href="<?php bloginfo('template_url'); ?>test/wp-content/themes/full-width/">Full Width</a></li>
+            
+            <li><a class="dropdown-item" href="<?php bloginfo('template_url'); ?>test/wp-content/themes/left-right-side/">Right & Left Sidebar</a></li>
+            
+         </ul>
+        </li>
+        
+        </ul>
+    </li>
+       
       </ul>
+      
     </div>
   </div>
-</nav>
+</nav> -->
 
-<div class="jumbotron text-center">
+
+
+</header> 
+<div class="jumbotron text-center mt-5">
   <h1><?php bloginfo('name') ?></h1>
   <p><?php bloginfo('description') ?></p> 
 </div>
-</header> 
+
+<div class="jumbotron text-center">
+  <h5> Logo in middle</h5>
+  
+ </div>
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  <!-- One of the primary actions on mobile is to call a business - This displays a phone button on mobile only -->
+  <div class="navbar-toggler-right">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar2" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+  </div>
+
+
+
+
+  <div class="collapse navbar-collapse flex-column " id="navbar2">
+    <a class="navbar-brand  " href="#">Logo</a>
+    
+   
+    <ul class="navbar-nav justify-content-center w-100 bg-dark px-3">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false">Dropdown Link</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown03">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false">Dropdown Link</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown03">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false">Dropdown Link</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown03">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+    </ul>
+
+
+  </div>
+
+</nav>
