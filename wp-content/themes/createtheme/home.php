@@ -3,7 +3,9 @@
 
 <style>
 
-
+.input{
+  
+}
 .navigation-main {
   
   display:inline-block;
@@ -37,19 +39,21 @@
        
         <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">  layout pages  </a>
-        <ul class="dropdown-menu">
+
+        <ul class="submenu dropdown-menu">
+            <li><input type="submit" name="button4"
+				value="left sidebar" class="page-link border-0 text-dark"/></li>
+           <input type="submit" name="button5"
+				value="right sidebar" class="page-link border-0 text-dark"/>
+           
+            
+            <li><input type="submit" name="button6"
+				value="left right sidebar" class="page-link border-0 text-dark"/> </li>
         <li><input type="submit" name="button1"
-				value="full width"/> </li>
-   
-    <li><input type="submit" name="button2"
-				value="Boxed"/></li>
-    <li><input type="submit" name="button3"
-				value="RTL"/> 
-	</li>
-  <li><input type="submit" name="button7"
-				value="LTR"/> 
-	</li>
-        </ul>
+				value="full width" class="page-link border-0 text-dark"/> </li>
+         </ul>
+
+
 
         </li>
         
@@ -57,20 +61,19 @@
       <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">  Features  </a>
         <ul class="dropdown-menu">
         <li><input type="submit" name="button8"
-				value="headers"/></li>
+				value="headers" class="page-link border-0 text-dark"/></li>
         <li><input type="submit" name="button9"
-				value="footers"/></li>
+				value="footers" class="page-link border-0 text-dark"/></li>
         <li><a class="dropdown-item" href=""> Layout options &raquo; </a>
            <ul class="submenu dropdown-menu">
-            <li><input type="submit" name="button4"
-				value="left sidebar"/></li>
-           <li><input type="submit" name="button5"
-				value="right sidebar"/></li>
-           
-            
-            <li><input type="submit" name="button6"
-				value="left right sidebar"/> </li>
-            
+           <li><input type="submit" name="button1"
+				value="full width" class="page-link border-0 text-dark"/> </li>
+        <li><input type="submit" name="button2"
+				value="Boxed"class="page-link border-0 text-dark"/></li>
+    <li><input type="submit" name="button3"
+				value="RTL" class="page-link border-0 text-dark"/> 
+	</li>
+  
          </ul>
         </li>
         
