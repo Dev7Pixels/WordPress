@@ -1,30 +1,55 @@
 
+    
 <!-- test -->
 
-<style>
 
-.input{
-  
-}
-.navigation-main {
-  
-  display:inline-block;
- color:red;
- }
-</style>
 		 
         
 <!-- test -->
-<div class="navigation-main">
-<?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
-</div>
+
+
+<?php
+
+$custom_logo_id = get_theme_mod( 'custom_logo' );
+
+$logo = wp_get_attachment_image_src( $custom_logo_id , 'full' );
+
+ 
+
+
+
+?>
+
+
+<span class="custom-logo" style="padding-left:30px;">
+<?php
+  if ( has_custom_logo() ) {?>
+<?php
+  // $logo = ' <a href="'.get_bloginfo('url').'"  target="_self">
+  // <img src="'.$logo[0].'" alt="'.get_bloginfo('name').'" title="'.get_bloginfo('name').'">
+  // </a>' ;?>
+  <a href="'.get_bloginfo('url').'"  target="_self">
+  <?php
+     echo '<img width="50"  src="' . esc_url( $logo[0] ) . '" alt="' . get_bloginfo( 'name' ) . '">';
+} else {
+    echo '<h1>' . get_bloginfo('name') . '</h1>';
+}?></a>
+</span>
+
+<span class="navigation">
+<?php
+
+wp_nav_menu( array( 'theme_location' => 'header-menu' ) );
+?></span>
 <!-- test-->
 
-<form method="post"> 
+<!-- <form method="post"> 
 <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Dev7Pixels <span class="badge bg-success"></span></a>
-    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+  <div class="container-fluid"> -->
+
+
+    <!-- <a class="navbar-brand" href="#">Dev7Pixels <span class="badge bg-success"></span></a> -->
+    <!-- <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
       <div class="hamburger-toggle">
         <div class="hamburger">
           <span class="navbar-toggler-icon"></span>
@@ -85,8 +110,7 @@
     </div>
   </div>
 </nav>
-</form>
-
+</form> -->
 
 <!-- test-->
 <!-- 
@@ -155,6 +179,7 @@ elseif(isset($_POST['button8'])) {
 elseif(isset($_POST['button9'])) { 
   get_template_part( 'page', 'footers' );
 }
+
 ?>
 
 
@@ -166,6 +191,14 @@ elseif(isset($_POST['button9'])) {
 <?php get_header();
 
 ?>
+
+
+<div class="left-side">
+<?php if(is_active_sidebar('left_side')) dynamic_sidebar('left_side'); ?>
+</div>
+<?php if(is_active_sidebar('footer-sidebar-1')) dynamic_sidebar('footer-sidebar-1'); ?>
+
+<br>
 <?php get_footer(); ?>
 
 

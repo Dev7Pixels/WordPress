@@ -7,7 +7,10 @@
 
 /* ============ desktop view .end// ============ */
 
-
+.custom-logo {
+	width: 900px;
+	padding-top: 20px;
+}
 .hero-banner h1 {
     font-size: 48px;
 }
@@ -319,7 +322,7 @@
   font-size: 18px;
   font-weight: bold; }
 
-.content .submitting {
+/* .content .submitting {
   float: left;
   width: 100%;
   padding: 10px 0;
@@ -329,3 +332,9 @@
   color: #000; }
 
 /* ============ contact us end ============ */
+/* .custom-logo
+{
+padding:20px;} */ 
+/* .c{
+  font-family: 'Montserrat', sans-serif;
+} */

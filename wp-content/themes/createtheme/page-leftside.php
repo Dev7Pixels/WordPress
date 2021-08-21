@@ -13,7 +13,7 @@ Template name:left-side
 
    
         <div class="container d-md-flex align-items-stretch">
-     
+        <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
 
       <nav id="sidebar">
         <div class="p-4 pt-5">

@@ -3,7 +3,11 @@
     
 <?php get_header();
 
-?>
+if(is_page('page-rtl')){
+  echo "yess";
+}?>
+
+
 
 
 <div class="container">
